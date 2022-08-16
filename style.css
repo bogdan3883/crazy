@@ -1,108 +1,15 @@
-/* css reset */
-
-html, body, div, span, applet, object, iframe,
-h1, h2, h3, h4, h5, h6, p, blockquote, pre,
-a, abbr, acronym, address, big, cite, code,
-del, dfn, em, img, ins, kbd, q, s, samp,
-small, strike, strong, sub, sup, tt, var,
-b, u, i, center,
-dl, dt, dd, ol, ul, li,
-fieldset, form, label, legend,
-table, caption, tbody, tfoot, thead, tr, th, td,
-article, aside, canvas, details, embed, 
-figure, figcaption, footer, header, hgroup, 
-menu, nav, output, ruby, section, summary,
-time, mark, audio, video {
-	margin: 0;
-	padding: 0;
-	border: 0;
-	font-size: 100%;
-	font: inherit;
-	vertical-align: baseline;
-}
-article, aside, details, figcaption, figure, 
-footer, header, hgroup, menu, nav, section {
-	display: block;
-}
-body {
-	line-height: 1;
-}
-ol, ul {
-	list-style: none;
-}
-blockquote, q {
-	quotes: none;
-}
-blockquote:before, blockquote:after,
-q:before, q:after {
-	content: '';
-	content: none;
-}
-table {
-	border-collapse: collapse;
-	border-spacing: 0;
-}
-
-/* css reset end */
-
-
-/* navbar-start */
-
-.navbar {
-    min-height: 70px;
+div {
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
     align-items: center;
+    gap: 20px;
+    height: 600px;
+    width: 50%;
+    margin: 0 auto;
+
+    background-color: aqua;
 }
 
-.nav-menu {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    margin: 0;
-    padding: 0;
-    gap: 60px;
-    font-size: 27px;
-}
-
-/* .nav-logo {
-    font-size: 2rem;
-    padding-left: 160px;
-} */
-
-
-header {
-    background-color: rebeccapurple;
-}
-
-main {
-    background-color: aquamarine;
-    height: calc(100vh - 170px);
-    display: flex;
-}
-
-.div-1 {
-    min-width: 50%;
-    min-height: 50%;
-    
-
-}
-
-.div-2 {
-    background-color: cadetblue;
-    min-width: 50%;
-    min-height: 50%;
-
-}
-
-@media (max-width: 40em) {
-    main {
-        display: block;
-    }
-}
-
-footer {
-    background-color: brown;
-    margin-top: auto;
-    height: 100px;
+div button {
+    font-size: 24px;
 }
